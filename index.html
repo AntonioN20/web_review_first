@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    
+
+</head>
+<body>
+    <div class="alert-container" data-alert-container></div>
+    <div style="height:127px"></div>
+    <div class="header">
+        <h1 class="logo"><span id="exodus">Exodus</span> Travel Agency</h1>
+        <div class="logobreak"></div>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="mailinglist.html">Mailist List</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Locations</a>
+                <div class="dropdown-content">
+                    <a href="/locations/sf.html">San Francisco, California</a>
+                    <a href="/locations/kr.html">Seoul, South Korea</a>
+                    <a href="/locations/ca.html">Vancouver, Canada</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item item1">
+            <div id="imgdiv"><img class="images" src="./images/sanfran.png"></div>
+            <h1 class="locationtitle">San Francisco, California</h1>
+            <div class="break"></div>
+            <p class="cityfact">San Francisco, officially the City and County of San Francisco, is the commercial, financial, and cultural center of Northern California. The city proper is the fourth most populous city in California, with 808,437 residents, and the 17th most populous city in the United States as of 2022.</p>
+            <button class="infobutton" onclick="window.location.href = 'http://127.0.0.1:5500//locations/sf.html'">More Info</button>
+        </div>
+        <div class="grid-item item2">
+            <div id="imgdiv"><img class="images" id="korea" src="https://media.timeout.com/images/105240244/750/422/image.jpgg"></div>
+            <h1 class="locationtitle">Seoul, South Korea</h1>
+            <div class="break"></div>
+            <p class="cityfact">Seoul, the capital of South Korea, is a huge metropolis where modern skyscrapers, high-tech subways and pop culture meet Buddhist temples, palaces and street markets.</p>
+            <button class="infobutton" onclick="window.location.href = 'http://127.0.0.1:5500//locations/kr.html'">More Info</button>
+        </div>
+        <div class="grid-item item3">
+            <div id="imgdiv"><img class="images" id="canada" src="https://media.cntraveler.com/photos/5c002e61597f4e4be66f8f90/2:1/w_2560%2Cc_limit/GettyImages-533345147.jpg"></div>
+            <h1 class="locationtitle">Vancouver, Canada</h1>
+            <div class="break"></div>
+            <p class="cityfact">Vancouver, a bustling west coast seaport in British Columbia, is among Canada’s densest, most ethnically diverse cities. A popular filming location, it’s surrounded by mountains, and also has thriving art, theatre and music scenes.</p>
+            <button class="infobutton" onclick="window.location.href = 'http://127.0.0.1:5500//locations/ca.html'">More Info</button>
+        </div>
+        <div class="footer">
+            <p>Contact: <span style="font-weight: bold;">1-800-EXODUS</span></p>
+            <p>Email: <span style="font-weight: bold;">exodussupport@gmail.com</span></p>
+            <h1 class="logo"><span class="footerlogo" id="exodus">
+                E
+            </span></h1>
+
+            <div class="circle"></div>
+            <iframe class="googlemaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2952.1043990291073!2d-71.44075110933107!3d42.27629476614269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e389cc0bdc3191%3A0xdedb917a8bb2fe42!2sKeefe%20Regional%20Technical%20School!5e0!3m2!1sen!2sus!4v1693493466527!5m2!1sen!2sus" width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</body>
+</html>
